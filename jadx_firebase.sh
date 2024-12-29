@@ -1,5 +1,5 @@
 #!/bin/bash
-function analyze_apk() {
+function firebaseJadx() {
     # Check if any APK files are present
     if [ -z "$(ls *.apk 2>/dev/null)" && -z "$(ls *.xapk 2>/dev/null)" ]; then
         echo "No APK files found in the current directory."
